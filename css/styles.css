@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&family=Open+Sans:ital,wght@0,600;1,400&display=swap");
+@import "reset.css";
+@import "variable.css";
+/* components */
+/*  @import "components/status-bar.css";  */
+@import "status-bar.css";
+@import "nav-bar.css";
+@import "screen-header.css";
+@import "user-component.css";
+@import "badge.css";
+@import "icon-row.css";
+@import "alt-screen-header.css";
+@import "no-mobile.css";
+/* screens */
+/* @import "screens/login.css"; */
+@import "login.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
+
+body {
+  color: #2e363e;
+  font-family: "Open Sans", sans-serif;
+  /*  height: 1000vh;  */
+}
+
+/*
+header {
+  margin-top: 20px;
+}
+*/
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
